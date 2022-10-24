@@ -1,0 +1,8 @@
+import random
+while True:
+    num = random.randint(0,20)
+    print( 'S? sinh ra có giá tr? là:', num)
+
+    if num == 5:
+      break;
+print ('Ðã thoát kh?i while')
